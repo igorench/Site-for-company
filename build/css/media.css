@@ -1,0 +1,88 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    header .header-form {
+        text-align: center;
+        margin: 15% 2% 0 2%;
+    }
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+    header .header-logo {
+        text-align: center;
+    }
+  header .header-phone {
+      text-align: center;
+      padding-bottom: 5%;
+  }
+    .sign {
+        float: right;
+    }
+    .navbar-toggle {
+        float: left;
+    }
+    .nav .active a{
+        border-radius: 15px;
+    }
+    header .header-form {
+        text-align: center;
+        margin: 30% 2% 0 2%;
+    }
+    header .accept-button {
+        margin-right: 10%;
+        padding: 5% 25%;
+        margin-bottom: 17%;
+        margin-top: 10%;
+    }
+    .deal-item {
+        margin-top: 7%;
+        text-align: center;
+    }
+     .deal .deal-item p {
+        padding: 0 10%;
+    }
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+/* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}

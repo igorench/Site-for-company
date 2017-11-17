@@ -1,0 +1,329 @@
+@import vars
+@import url('https://fonts.googleapis.com/css?family=Slabo+27px')
+@import url('https://fonts.googleapis.com/css?family=Lora:400,700')
+
+html
+  box-sizing: border-box
+
+*, *:before, *:after
+  box-sizing: inherit
+
+body
+  font-family: "Lora", sans-serif
+  font-weight: 400
+  font-size: 1em
+  color: $white
+  position: relative
+  line-height: 1.2
+
+h1, h2, h3, h4, h5, h6
+  font-family: "Slabo+27px", sans-serif
+
+.header-logo, .header-phone
+  color: $white
+
+header
+  background-color: #4B83A6
+  z-index: -2
+
+
+header .carousel-wrapper
+  background-color: #4B83A6
+
+.header-logo
+  padding: 4% 0
+  span
+    font-size: 1.8em
+  img
+    position: absolute
+    top: 10%
+    left: -3%
+  
+.header-phone
+  text-align: right
+  font-size: 1.9em
+  padding-top: 19%
+
+.nav .navbar-nav
+  float: right
+
+.navbar-default
+  border-bottom: 4px solid #537a93
+
+.navbar-default .navbar-nav > li > a
+  color: #3a5362
+  font-size: 1.2em
+  font-weight: 500
+  padding: 12px 25px 10px 25px
+
+
+.navbar-collapse
+  float: right
+
+.sign
+  text-align: right
+  padding: 3% 16% 0 0
+  font-size: 1.3em
+  a
+    color: #3a5362
+    text-decoration: none
+
+header .navbar-default .navbar-nav > .active > a,header a:focus, header .navbar-default .navbar-nav > .active > a:hover, header .active
+  width: auto
+  height: auto
+  border-top-left-radius: 15px
+  border-top-right-radius: 15px
+  background: #6E9BB7
+  box-shadow: 0 6px #6E9BB7
+  color: $white
+
+.navbar-default .navbar-nav > .active
+  margin-top: 5px
+
+.owl-carousel
+  float: left
+  border: 9px solid $white
+  img
+    width: 100%
+    height: 100%
+
+.owl-carousel-item
+  p
+    margin: 1% 0 0 0
+    font-size: 1.2em
+  span
+    font-size: 1.6em
+  
+.wrapper-owl-item
+  background-color: #1A425A
+  padding: 2% 6%
+
+.btn
+  float: right
+
+.form-group
+  select
+    width: 55%
+    float: right
+    margin-top: 3%
+
+.form-group
+  h2
+    font-size: 1.4em
+
+.header-form
+  margin: 0 18% 0 0
+
+.header-form-link, .header-form-link:hover, .header-form-link:focus
+  background-color: #C2F2ED
+  font-weight: 700
+  padding: 1.5% 6%
+  border-top-left-radius: 8px
+  border-top-right-radius: 8px
+  font-size: 1.8em
+  text-decoration: none
+  margin-right: 0.5%
+  box-shadow: none
+
+.form-group
+  margin-bottom: 2%
+  h2
+    margin-top: 1%
+    padding-top: 2.7%
+    font-weight: 700
+  label
+    font-size: 2em
+  input
+    border: 3px solid #316e94
+    padding: 2% 4%
+    color: #316e94
+
+input[type="text"]::placeholder
+  color: #316e94
+  font-weight: 400
+
+input[type="password"]::placeholder
+  color: #316e94
+  font-weight: 400
+
+.input-form
+  border-radius: 8px
+
+header form
+  background: linear-gradient(to bottom, #6299c4, #4B83A6)
+  border-radius: 3%
+  border-top-left-radius: 0
+  padding: 4% 10%
+  margin-top: 1%
+
+.form-check
+  label
+    padding: 0 0 2% 2%
+    span
+      font-size: 1.4em
+      font-weight: 400
+
+header form .form-group .form-label
+  padding: 5% 0 0 10%
+  font-weight: 400
+  font-size: 1.5em
+
+.header-form .form-active
+  background: #6299c4
+  border-bottom: none
+  color: $white
+  font-weight: 700
+  font-size: 1.8em
+
+.accept-button
+  background: linear-gradient(to bottom, #60a4ce, #4B83A6)
+  padding: 3% 18%
+  font-size: 1.8em
+  border-radius: 8px
+  border: 4px solid #d7d7d7
+  float: right
+  margin-top: 8%
+  outline: none
+  position: relative
+
+.deal
+  background: linear-gradient(to bottom, #edfffd, #c2f2ed)
+  padding: 2% 0 1% 0
+
+.deal-item
+  img
+    vertical-align: top
+  span
+    color: #4484ad
+    padding-left: 1%
+    font-size: 1.8em
+    vertical-align: bottom
+    display: inline-block
+  img, span
+    padding-bottom: 3%
+  p
+    font-size: 1.05em
+    color: #43515a
+    padding-right: 25%
+
+.home
+  background-color: #fff
+  .col-md-3
+    padding-right: 4px
+
+.home-item
+  margin: 7% 0
+
+.home-item-search
+  color: #fff
+
+.home-item-text
+  background-color: #4f8fb7
+  padding: 4% 8%
+  vertical-align: middle
+  border-bottom-left-radius: 6px
+  border-bottom-right-radius: 6px
+  .home-item-text-header
+    font-size: 1.4em
+  .home-item-text-descr
+    font-size: 1.2em
+
+.home-img
+  border: 6px solid #e1dede
+  height: 100%
+  width: 100%
+
+.port_descr
+  background-color: #4f8fb7
+  max-width: 600px
+  margin: auto
+  span
+    font-size: 1.8em
+    display: block
+    text-align: center
+    padding-top: 3%
+  p
+    margin-top: 0
+    font-size: 1.4em
+    text-align: center
+    padding-top: 3%
+    margin-bottom: 3%
+  img
+    width: 100%
+    height: 80%
+    margin-top: 10px
+    border: 6px solid #e1dede
+
+.modal-box-content
+  position: relative
+
+.mfp-close-btn-in .mfp-close
+  color: $white
+
+.contact
+  background-color: #5E8BA9
+  padding: 1.5% 0
+  span
+    display: block
+    font-family: "Arial", sans-serif
+    font-size: 2.5em
+
+.contact-login-member, .contact-subscribe
+  background: linear-gradient(to bottom, #82BADE, #689BBC)
+  padding: 3.5% 3%
+  border: 1px solid #d7d7d7
+  border-radius: 6px
+  span
+    padding-bottom: 3%
+
+.contact-form, .contact-subscribe-form
+  button
+    padding: 5px 21px
+    margin-top: 0
+    float: none
+  input
+    padding: 10px 5px
+    border-radius: 7px
+    margin-right: 3%
+    border: none
+    color: blue
+    font-size: 1.4em
+
+.contact-subscribe-form
+  input
+    padding: 10px 30px
+    width: 70%
+  button
+    padding: 5px 21px
+    margin-top: 0
+    float: none
+
+.contact-login-not-member
+  margin-top: 3%
+  background: linear-gradient(to bottom, #82BADE, #689BBC)
+  border: 1px solid #d7d7d7
+  border-radius: 6px
+  padding: 1.5%
+  padding-left: 9%
+  vertical-align: middle
+  span
+    display: inline-block
+  a
+    font-family: "Arial", sans-serif
+    float: right
+    font-size: 2.5em
+    text-decoration: none
+    border: 1px solid #fff
+    background: linear-gradient(to bottom, #FFA561, #FF7005)
+    color: #fff
+    padding: 1.4% 4.35% 1.4% 6%
+    position: absolute
+    top: 75%
+    left: 60%
+    border-top-right-radius: 6px
+    border-bottom-right-radius: 6px
+  div
+    border-top: 50px solid transparent
+    border-left: 100px solid red
+    border-bottom: 50px solid transparent
+
